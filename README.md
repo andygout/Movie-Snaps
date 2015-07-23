@@ -51,6 +51,42 @@ Original pitch:
 *So as to expand the site's community, dedicated users will be able to post photos/videos of themselves at locations re-enacting the iconic scenes once shot there.*
 
 
+Technologies Used:
+-------
+
+* Ruby on Rails web application framework
+* ActiveRecord (database query interface) with PostgreSQL database
+* Javascript
+* jQuery
+* Tested with RSpec, Capybara, Poltergeist headless browser on Selenium Driver
+* Photos saved to Amazon Web Services: S3 (Simple Storage Service)
+* API calls made to GoogleMaps and OMDb API (The Open Movie Database)
+
+
+Set-up Steps:
+-----
+
+* Configuration
+    Rails should be installed via the cmd: gem install rails
+    To get this application running locally, pull the repo from GitHub. Add file `.env` (does not appear in the repo because it's included in `.gitignore`) to your root directory and add the below (with requisite IDs and App secrets):
+    ```
+    FACEBOOK_APP_ID=
+    FACEBOOK_APP_SECRET=
+    S3_BUCKET_NAME=
+    AWS_ACCESS_KEY_ID=
+    AWS_SECRET_ACCESS_KEY=
+    ```
+
+* Database creation
+    `$ bin/rake db:create` (`$ bin/rake db:migrate` if you have a previous version of the app)
+
+* How to run the test suite
+    $ rspec
+
+* To run the site on a local server
+    `$ bin/rails s`
+
+
 User stories:
 -------
 
@@ -103,41 +139,6 @@ As a movie snap admin
 So that that I can entice new users
 I would like to the homepage to display user visits info/photos
 ```
-
-Technologies Used:
--------
-
-* Ruby on Rails web application framework
-* ActiveRecord (database query interface) with PostgreSQL database
-* Javascript
-* jQuery
-* Tested with RSpec, Capybara, Poltergeist headless browser on Selenium Driver
-* Photos saved to Amazon Web Services: S3 (Simple Storage Service)
-* API calls made to GoogleMaps and OMDb API (The Open Movie Database)
-
-
-Set-up Steps:
------
-
-* Configuration
-    Rails should be installed via the cmd: gem install rails
-    To get this application running locally, pull the repo from GitHub. Add file `.env` (does not appear in the repo because it's included in `.gitignore`) to your root directory and add the below (with requisite IDs and App secrets):
-    ```
-    FACEBOOK_APP_ID=
-    FACEBOOK_APP_SECRET=
-    S3_BUCKET_NAME=
-    AWS_ACCESS_KEY_ID=
-    AWS_SECRET_ACCESS_KEY=
-    ```
-
-* Database creation
-    `$ bin/rake db:create` (`$ bin/rake db:migrate` if you have a previous version of the app)
-
-* How to run the test suite
-    $ rspec
-
-* To run the site on a local server
-    `$ bin/rails s`
 
 
 Live demo on Heroku:
