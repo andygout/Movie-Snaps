@@ -1,14 +1,7 @@
-[![Build Status](https://travis-ci.org/timoxman/Movie-Snaps.png)](https://travis-ci.org/timoxman/Movie-Snaps)
+[![Build Status](https://travis-ci.org/andygout/Movie-Snaps.png)](https://travis-ci.org/andygout/Movie-Snaps)
 
-[![Coverage Status](https://coveralls.io/repos/timoxman/Movie-Snaps/badge.png)](https://coveralls.io/r/timoxman/Movie-Snaps)
+[![Coverage Status](https://coveralls.io/repos/andygout/Movie-Snaps/badge.png)](https://coveralls.io/r/andygout/Movie-Snaps)
 
-Waffle Board
-[https://waffle.io/timoxman/Movie-Snaps]
-
-Features To Aim For
-[https://github.com/timoxman/Movie-Snaps/blob/master/features.md]
-
-[![Coverage Status](https://coveralls.io/repos/timoxman/Movie-Snaps/badge.svg?branch=57-test-validations&service=github)](https://coveralls.io/github/timoxman/Movie-Snaps?branch=57-test-validations)
 
 Movie-Snaps
 ===================
@@ -28,6 +21,12 @@ Collaborators:
 [Tim Oxman](https://github.com/timoxman)
 
 [Daryl Watson](https://github.com/dwatson62)
+
+
+Kanban Board:
+-----
+
+[Waffle Board](https://waffle.io/timoxman/Movie-Snaps)
 
 
 Brief:
@@ -118,47 +117,25 @@ Technologies Used:
 Set-up Steps:
 -----
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
 * Configuration
     Rails should be installed via the cmd: gem install rails
-    To get this application up and running, pull the repo from Github. Add a file called .env to your route directory. (This file is not in the github repo because it's in the gitignore file)
-    To this new file add five lines:
-      FACEBOOK_APP_ID=
-      FACEBOOK_APP_SECRET=
-      S3_BUCKET_NAME=
-      AWS_ACCESS_KEY_ID=
-      AWS_SECRET_ACCESS_KEY=
-      Complete the 5 lines with the app ID and App secret which are added in the slack channel. (no spaces between = and ID's)
+    To get this application running locally, pull the repo from GitHub. Add file `.env` (does not appear in the repo because it's included in `.gitignore`) to your root directory and add the below (with requisite IDs and App secrets):
+    ```
+    FACEBOOK_APP_ID=
+    FACEBOOK_APP_SECRET=
+    S3_BUCKET_NAME=
+    AWS_ACCESS_KEY_ID=
+    AWS_SECRET_ACCESS_KEY=
+    ```
 
 * Database creation
-    bin/rake db:create
-    or bin/rake db:migrate (if you have a previous version of the app)
-
-* Database initialization
+    `$ bin/rake db:create` (`$ bin/rake db:migrate` if you have a previous version of the app)
 
 * How to run the test suite
     $ rspec
 
-* To See test system
-    bin/rails s
-    go to http://localhost:3000/
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-    tba
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* To run the site on a local server
+    `$ bin/rails s`
 
 
 Live demo on Heroku:
@@ -170,17 +147,26 @@ Live demo on Heroku:
 Images:
 -------
 
-- Welcome Page
-![Movie-Snaps Welcome Page](git_imgs/welcome-page.png)
+- Welcome Page (i)
+![Movie-Snaps Welcome Page](git_imgs/welcome-page-i.png)
 
-- User Show Page
-![Movie-Snaps User Show Page](git_imgs/user-show-page.png)
+- Welcome Page (ii)
+![Movie-Snaps Welcome Page](git_imgs/welcome-page-ii.png)
 
-- Location Show Page
-![Movie-Snaps Location Show Page](git_imgs/location-show-page.png)
+- Scene Select Page
+![Movie-Snaps Scene Select Page](git_imgs/scene-select-page.png)
 
-- Movie Show Page
-![Movie-Snaps Movie Show Page](git_imgs/movie-show-page.png)
+- Visit Add Page
+![Movie-Snaps Visit Add Page](git_imgs/visit-add-page.png)
+
+- User Page
+![Movie-Snaps User Page](git_imgs/user-page.png)
+
+- Location Page
+![Movie-Snaps Location Page](git_imgs/location-page.png)
+
+- Movie Page
+![Movie-Snaps Movie Page](git_imgs/movie-page.png)
 
 
 Links:
