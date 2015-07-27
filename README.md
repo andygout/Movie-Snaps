@@ -2,8 +2,6 @@
 
 [![Coverage Status](https://coveralls.io/repos/andygout/Movie-Snaps/badge.png)](https://coveralls.io/r/andygout/Movie-Snaps)
 
-[![Coverage Status](https://coveralls.io/repos/andygout/Movie-Snaps/badge.svg?branch=master&service=github)](https://coveralls.io/github/andygout/Movie-Snaps?branch=master)
-
 
 Movie-Snaps
 ===================
