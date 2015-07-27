@@ -145,6 +145,12 @@ Live demo on Heroku:
 [Movie-Snaps](https://movie-snaps.herokuapp.com/)
 
 
+Links:
+-------
+
+[OMDb API](http://www.omdbapi.com/)
+
+
 Images:
 -------
 
@@ -168,9 +174,3 @@ Images:
 
 - Movie Page
 ![Movie-Snaps Movie Page](git_imgs/movie-page.png)
-
-
-Links:
--------
-
-[OMDb API](http://www.omdbapi.com/)
