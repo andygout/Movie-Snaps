@@ -1,10 +1,8 @@
 class DashboardsController < ApplicationController
 
   def index
-#total visist by date
     @visits = Visit.all.group(:date_visited).count.to_a.sort_by!{|k|k[0]}
 
-# Most popular Movies
     @scenes = Scene.includes(:movie)
     @scene_table_data =[]
     @scenes.each do | scene |
@@ -29,7 +27,6 @@ class DashboardsController < ApplicationController
         @scene_table_data.pop
     end
 
-#Most active users
     @visits2 = Visit.includes(:user).all
     @user_table_data =[]
     @visits2.each do | visit |
@@ -48,7 +45,6 @@ class DashboardsController < ApplicationController
       end
     end
 
-#Most popular locations
     regex = %r!, ([a-zA-Z ]+)$!
     @locations = Location.all
     @location_table_data =[]
@@ -66,7 +62,6 @@ class DashboardsController < ApplicationController
         @location_table_data.push([country,1]) if !location_found
       end
    end
-    #@location_table_data = [["United Kingdom",44],["USA",23],["Brazil",22]]
   end
 
 

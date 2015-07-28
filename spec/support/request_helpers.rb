@@ -21,8 +21,6 @@ def create_visit
   visit '/'
 end
 
-
-
 def fill_autocomplete(field, options = {})
   fill_in field, with: options[:with]
   sleep 5

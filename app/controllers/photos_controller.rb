@@ -11,12 +11,9 @@ class PhotosController < ApplicationController
   end
 
   def create
-    # redirect_to '/visits'
     Photo.create(photo_params.merge({visit_id: params[:visit_id]}))
     redirect_to '/'
   end
-
-  # define which params we are going to allow us to pass to controller, without this security flaw.
 
   def photo_params
     params.require(:photo).permit(:caption, :image)

@@ -29,27 +29,3 @@ class VisitsController < ApplicationController
   end
 
 end
-
-    # def new
-    # @location = Location.where("latitude = ? AND longitude = ? AND address = ?", params[:posa], params[:posf], params[:address])
-    # @movie = Movie.where("name = ?", params[:film])
-    # @scene = Scene.where("location_id = ? AND movie_id = ?", @location.id, @movie.id)
-    # # @scene = Scene.find(params[:scene_id])
-    # # @location = Location.find(@scene.location_id)
-    # # @current_visits = Visit.where("scene_id = ?", params[:scene_id]).all
-    # @visit = Visit.new
-    # # @movie = @scene.movie.name
-    # # @photo = Photo.new
-    # end
-
-  # def new
-  #   if params[:scene_id] == 0
-  #     raise "go off and create a movie, location and scene"
-  #   end
-  #   @scene = Scene.find(params[:scene_id])
-  #   @location = Location.find(@scene.location_id)
-  #   @current_visits = Visit.where("scene_id = ?", params[:scene_id]).all
-  #   @visit = Visit.new
-  #   @movie = @scene.movie.name
-  #   @photo = Photo.new
-  # end

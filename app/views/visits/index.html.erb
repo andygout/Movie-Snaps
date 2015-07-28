@@ -13,7 +13,6 @@ Current Scenes
 <% end %>
 <br>
 
-
 Curent Visits
 <% if @visits.any? %>
   <% @visits.each do |visit| %>
@@ -24,9 +23,7 @@ Curent Visits
 <% end %>
 <br>
 
-
 <% if current_user %>
-  <!-- If no scene exists, and you want to create a movie, location and scene as well as a visit -->
   <%= link_to "Add a visit", new_scene_visit_path(0) %>
 <% end %>
 
