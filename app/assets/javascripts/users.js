@@ -8,7 +8,6 @@ $(document).ready(function() {
     $(this).find('.latitude').hide();
 
     var movieTitleYear = $(this).find('.movieTitleYear').text();
-    console.log(movieTitleYear)
     var movieTitle = movieExtractTitle(movieTitleYear);
     var movieYear = movieExtractYear(movieTitleYear);
     getPoster(movieTitle, movieYear, index);
@@ -60,7 +59,6 @@ function getPoster(movieTitle, movieYear, index) {
   })
   .done(function() {
     var listItem = $('#visits').children('ul').children('li').children('div').children('span.movie_img')[index];
-    console.log(listItem)
     $(listItem).html(poster);
   })
 }

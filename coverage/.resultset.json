@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/models/user.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/models/user.rb": [
         1,
         null,
         null,
@@ -26,51 +26,51 @@
         null,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/helpers/application_helper.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/helpers/comments_helper.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/helpers/comments_helper.rb": [
         1,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/helpers/dashboards_helper.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/helpers/dashboards_helper.rb": [
         1,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/helpers/likes_helper.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/helpers/likes_helper.rb": [
         1,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/helpers/locations_helper.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/helpers/locations_helper.rb": [
         1,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/helpers/movies_helper.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/helpers/movies_helper.rb": [
         1,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/helpers/photos_helper.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/helpers/photos_helper.rb": [
         1,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/helpers/scenes_helper.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/helpers/scenes_helper.rb": [
         1,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/helpers/users_helper.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/helpers/users_helper.rb": [
         1,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/helpers/visits_helper.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/helpers/visits_helper.rb": [
         1,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/helpers/welcome_helper.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/helpers/welcome_helper.rb": [
         1,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/models/visit.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/models/visit.rb": [
         1,
         null,
         1,
@@ -83,7 +83,7 @@
         null,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/models/comment.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/models/comment.rb": [
         1,
         null,
         1,
@@ -93,7 +93,7 @@
         null,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/models/like.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/models/like.rb": [
         1,
         null,
         1,
@@ -101,7 +101,7 @@
         null,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/models/location.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/models/location.rb": [
         1,
         null,
         1,
@@ -109,19 +109,7 @@
         null,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/models/photo.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/models/scene.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/models/photo.rb": [
         1,
         null,
         1,
@@ -133,14 +121,26 @@
         null,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/models/movie.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/models/scene.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/andygout/Documents/Projects/movie_snaps/app/models/movie.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/controllers/welcome_controller.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/controllers/welcome_controller.rb": [
         1,
         null,
         1,
@@ -153,14 +153,14 @@
         null,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/controllers/application_controller.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/controllers/users_controller.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/controllers/users_controller.rb": [
         1,
         null,
         1,
@@ -179,7 +179,7 @@
         null,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/controllers/comments_controller.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/controllers/comments_controller.rb": [
         1,
         null,
         1,
@@ -195,7 +195,7 @@
         null,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/controllers/movies_controller.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/controllers/movies_controller.rb": [
         1,
         null,
         1,
@@ -221,7 +221,7 @@
         null,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/controllers/locations_controller.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/controllers/locations_controller.rb": [
         1,
         null,
         1,
@@ -233,13 +233,13 @@
         null,
         null,
         1,
-        395,
-        395,
+        396,
+        396,
         null,
         null,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/controllers/dashboards_controller.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/controllers/dashboards_controller.rb": [
         1,
         null,
         1,
@@ -311,7 +311,7 @@
         null,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/controllers/likes_controller.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/controllers/likes_controller.rb": [
         1,
         null,
         1,
@@ -322,7 +322,7 @@
         null,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/controllers/scenes_controller.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/controllers/scenes_controller.rb": [
         1,
         null,
         1,
@@ -361,7 +361,7 @@
         null,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/controllers/visits_controller.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/controllers/visits_controller.rb": [
         1,
         null,
         1,
@@ -394,7 +394,7 @@
         null,
         null
       ],
-      "/Users/andygout/Desktop/Projects/Movie-Snaps/app/controllers/users/omniauth_callbacks_controller.rb": [
+      "/Users/andygout/Documents/Projects/movie_snaps/app/controllers/users/omniauth_callbacks_controller.rb": [
         1,
         null,
         1,
@@ -411,6 +411,6 @@
         null
       ]
     },
-    "timestamp": 1438105645
+    "timestamp": 1440523252
   }
 }

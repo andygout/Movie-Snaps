@@ -53,7 +53,6 @@ end
 feature 'User views the location index page' do
 
   before do
-    # byebug
     create_visit
     visit new_scene_path
   end

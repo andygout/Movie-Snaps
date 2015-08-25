@@ -162,8 +162,8 @@ function getMarkers() {
 
 function getAddress() {
   var url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng='
-  var lat = newMarker[0].position.A
-  var lng = newMarker[0].position.F
+  var lat = newMarker[0].position.G
+  var lng = newMarker[0].position.K
   $.getJSON(url + lat + "," + lng + '&sensor=true', function (data) {
     result = data.results[0].formatted_address;
     document.getElementById("enterDestination").value = result;
@@ -217,13 +217,13 @@ function confirmLocation(marker) {
     type: 'POST',
     beforeSend: function(xhr) {xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))},
     data: {
-            "posa" : marker.position.A,
-            "posf" : marker.position.F,
+            "posa" : marker.position.G,
+            "posf" : marker.position.K,
             "address" : result,
             "film" : film
           },
     success: function() {
-      var url = "/scenes/api?posa=" + marker.position.A + "&posf=" + marker.position.F + "&address=" + result + "&film=" + film;
+      var url = "/scenes/api?posa=" + marker.position.G + "&posf=" + marker.position.K + "&address=" + result + "&film=" + film;
       $.getJSON(url, function(data) {
         var scene_id = data['id'];
         window.open(scene_id + "/visits/new", "_self")
@@ -239,13 +239,10 @@ function acquireDBLocations() {
   $.getJSON(url, function (data) {
     var DBlocationArray = data;
     var availableDBLocations = [];
-
     if(DBlocationArray) {
       DBlocationArray.forEach(function(DBlocation) {
         availableDBLocations.push(DBlocation['address']);
       });
-      console.log(availableDBLocations);
-
       $("#enterDBLocation").autocomplete({
         source: availableDBLocations
       });
