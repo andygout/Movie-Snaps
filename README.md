@@ -50,7 +50,7 @@ Original pitch:
 Live demo on Heroku:
 -------
 
-[Movie-Snaps](https://movie-snaps.herokuapp.com/)
+[Movie-Snaps](https://moviesnaps.herokuapp.com/)
 
 
 Technologies used:
